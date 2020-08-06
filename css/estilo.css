@@ -45,7 +45,7 @@ body{
     background-color: white;
     color: #2a008b;
 }
-#estrutura img{width: auto; height: auto;}
+#estrutura img{width: 1000px; height: auto;}
 #rodape{
     text-align: center;
     color: white;
