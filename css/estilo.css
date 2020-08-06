@@ -1,0 +1,58 @@
+body{
+    background-color: #e3e3e3;
+}
+#cabecalho{
+    padding: 10px 50px;
+    color: white;
+    background-color: #2a008b;
+}
+#estrutura{
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+}
+#estrutura .palavra{text-align: justify;}
+#estrutura #menu ul{
+    padding: 0px;
+    margin: 0px;
+}
+#estrutura #menu li{
+    list-style: none;
+    display: inline-block;
+    width: 196px;
+    text-align: center;
+    padding: 0px 0px;
+}
+#estrutura #menu a{
+    font-family: arial;
+    font-size: 11pt;
+    text-decoration: none;
+    border: 1px solid black;
+    color: white;
+    background-color: #2a008b;
+    width: 100%;
+    display: inline-block;
+    padding: 8px 0px;
+}
+#estrutura #menu a:hover{ /*Só aparecerá quando o usuário passar o mouse no elemento*/
+    background-color: white;
+    color: #2a008b;
+}
+#estrutura #menu a.atual{ /*item do menu selecionado*/
+    background-color: white;
+    color: #2a008b;
+}
+#rodape{
+    text-align: center;
+    color: white;
+    background-color: #2a008b;
+    padding: 10px 30px;
+}
+@media screen and (max-width: 600px){
+    #estrutura{width: 100%; padding: 20px 10px;}
+    #estrutura #menu li{width: 100%;}
+    #estrutura #produto{flex-direction: column;}
+    #estrutura #produto img{width: auto; height: 300px;}
+}
