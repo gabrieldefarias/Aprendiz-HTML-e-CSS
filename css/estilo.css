@@ -6,6 +6,7 @@ body{
     color: white;
     background-color: #2a008b;
 }
+#cabecalho .Titulo{text-align: justify;}
 #estrutura{
     background-color: white;
     width: 80%;
@@ -44,6 +45,7 @@ body{
     background-color: white;
     color: #2a008b;
 }
+#estrutura img{width: auto; height: auto;}
 #rodape{
     text-align: center;
     color: white;
@@ -53,6 +55,5 @@ body{
 @media screen and (max-width: 600px){
     #estrutura{width: 100%; padding: 20px 10px;}
     #estrutura #menu li{width: 100%;}
-    #estrutura #produto{flex-direction: column;}
-    #estrutura #produto img{width: auto; height: 300px;}
+    #estrutura img{width: auto; height: 300px;}
 }
