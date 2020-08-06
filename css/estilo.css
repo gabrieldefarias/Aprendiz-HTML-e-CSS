@@ -56,6 +56,6 @@ body{
     #cabecalho{width: 100%;}
     #estrutura{width: 100%; padding: 20px 10px;}
     #estrutura #menu li{width: 100%;}
-    #estrutura img{width: 300px; height: auto;}
+    #estrutura img{width: auto; height: 300px;}
     #rodape{width: 100%;}
 }
