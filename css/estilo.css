@@ -53,7 +53,9 @@ body{
     padding: 10px 30px;
 }
 @media screen and (max-width: 600px){
+    #cabecalho{width: 100%;}
     #estrutura{width: 100%; padding: 20px 10px;}
     #estrutura #menu li{width: 100%;}
-    #estrutura img{width: 400px; height: auto;}
+    #estrutura img{width: 300px; height: auto;}
+    #rodape{width: 100%;}
 }
