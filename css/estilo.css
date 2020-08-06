@@ -55,5 +55,5 @@ body{
 @media screen and (max-width: 600px){
     #estrutura{width: 100%; padding: 20px 10px;}
     #estrutura #menu li{width: 100%;}
-    #estrutura img{width: auto; height: 300px;}
+    #estrutura img{width: 400px; height: auto;}
 }
