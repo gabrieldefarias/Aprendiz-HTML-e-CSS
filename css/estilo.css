@@ -12,7 +12,7 @@ body{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 30px;
+    padding: 15px 30px;
 }
 #estrutura .palavra{text-align: justify;}
 #estrutura #menu ul{
@@ -45,17 +45,15 @@ body{
     background-color: white;
     color: #2a008b;
 }
-#estrutura img{width: 1000px; height: auto;}
+#estrutura img{width: 900px; height: 400px;}
 #rodape{
     text-align: center;
     color: white;
     background-color: #2a008b;
     padding: 10px 30px;
 }
-@media screen and (max-width: 600px){
-    #cabecalho{width: 100%;}
-    #estrutura{width: 100%; padding: 20px 10px;}
+@media screen and (max-width: 700px){
+    #estrutura{width: 100%; padding: 0px;}
     #estrutura #menu li{width: 100%;}
-    #estrutura img{width: auto; height: 300px;}
-    #rodape{width: 100%;}
+    #estrutura img{width: auto; height: 160px;}
 }
